@@ -940,10 +940,21 @@ function startUnity() {
   // ("No GlobalGameManagers file was found... quitting player") and leaves a blank
   // canvas. media.githubusercontent.com serves the real object with CORS enabled,
   // so probe the candidates and use the first one that is actually the data file.
-  var DATA_CANDIDATES = [
-    "https://media.githubusercontent.com/media/foldingchair67/ksp-maybe/main/Build/Build.data",
-    buildUrl + "/Build.data"
-  ];
+  // The repo has been renamed several times (everyonesim -> everybodysimulation ->
+  // foldingchair67 -> everyone-sim67), and each rename moves BOTH the Pages host and
+  // the LFS media path, which silently breaks Play with no error. So derive the owner
+  // and repo from where this page is actually served instead of hardcoding them, and
+  // keep the known owners as fallbacks in case the page is served from elsewhere.
+  function mediaDataUrl(owner, repo) {
+    return "https://media.githubusercontent.com/media/" + owner + "/" + repo + "/main/Build/Build.data";
+  }
+  var pathParts = location.pathname.split("/").filter(Boolean);
+  var REPO_NAME = pathParts.length ? pathParts[0] : "ksp-maybe";
+  var HOST_OWNER = /\.github\.io$/.test(location.hostname) ? location.hostname.split(".")[0] : null;
+  var KNOWN_OWNERS = [HOST_OWNER, "everyone-sim67", "foldingchair67", "everybodysimulation", "everyonesim"]
+    .filter(function (o, i, a) { return o && a.indexOf(o) === i; });
+  var DATA_CANDIDATES = KNOWN_OWNERS.map(function (o) { return mediaDataUrl(o, REPO_NAME); });
+  DATA_CANDIDATES.push(buildUrl + "/Build.data");
   function probeSize(url) {
     return fetch(url, { method: "HEAD", cache: "no-store" }).then(function (r) {
       if (!r.ok) return 0;
