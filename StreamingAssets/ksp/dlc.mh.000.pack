@@ -202246,7 +202246,71 @@ _BurnColor      €?  €?  €?  €?_UnderwaterFogFactor             s1p5_cone.pn
 	inverseStageCarryover = false
 	bulkheadProfiles = size3
 	
-	
+	MODULE
+	{
+		name = ModuleDynamicNodes
+		autostrut = true
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004445	// #autoLOC_8004445 = Single
+			MeshTransform = N1
+			NodePrefix = N1_
+			SetCount = 1
+			Symmetry = 0
+		}		
+		
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
+			MeshTransform = N2
+			NodePrefix = N2_
+			SetCount = 2
+			Symmetry = 1
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
+			MeshTransform = N3
+			NodePrefix = N3_
+			SetCount = 3
+			Symmetry = 2
+		}
+		NODE_SET
+		{
+			DisplayText = 4x1
+			MeshTransform = N5
+			NodePrefix = N5_
+			SetCount = 5
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
+			MeshTransform = N4
+			NodePrefix = N4_
+			SetCount = 4
+			Symmetry = 3
+		}
+
+		NODE_SET
+		{
+			DisplayText = 6x1
+			MeshTransform = N7
+			NodePrefix = N7_
+			SetCount = 7
+			Symmetry = 5
+		}
+
+		NODE_SET
+		{
+			DisplayText = 8x1
+			MeshTransform = N9
+			NodePrefix = N9_
+			SetCount = 9
+			Symmetry = 7
+		}	
+	}
 	
 
 
@@ -202713,7 +202777,71 @@ _BurnColor      €?  €?  €?  €?_UnderwaterFogFactor             s1p5_cone.pn
 	inverseStageCarryover = false
 	bulkheadProfiles = size2
 	
-	
+	MODULE
+	{
+		name = ModuleDynamicNodes
+		autostrut = true
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004445	// #autoLOC_8004445 = Single
+			MeshTransform = N1
+			NodePrefix = N1_
+			SetCount = 1
+			Symmetry = 0
+		}		
+		
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
+			MeshTransform = N2
+			NodePrefix = N2_
+			SetCount = 2
+			Symmetry = 1
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
+			MeshTransform = N3
+			NodePrefix = N3_
+			SetCount = 3
+			Symmetry = 2
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
+			MeshTransform = N4
+			NodePrefix = N4_
+			SetCount = 4
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = 4x1
+			MeshTransform = N5
+			NodePrefix = N5_
+			SetCount = 5
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = 6x1
+			MeshTransform = N7
+			NodePrefix = N7_
+			SetCount = 7
+			Symmetry = 5
+		}
+
+		NODE_SET
+		{
+			DisplayText = 8x1
+			MeshTransform = N9
+			NodePrefix = N9_
+			SetCount = 9
+			Symmetry = 7
+		}	
+	}
 	
 	MODULE
 	{
@@ -203175,7 +203303,71 @@ _BurnColor      €?  €?  €?  €?_UnderwaterFogFactor             s1p5_cone.pn
 	inverseStageCarryover = false
 	bulkheadProfiles = size1p5
 	
-	
+	MODULE
+	{
+		name = ModuleDynamicNodes
+		autostrut = true
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004445	// #autoLOC_8004445 = Single
+			MeshTransform = N1
+			NodePrefix = N1_
+			SetCount = 1
+			Symmetry = 0
+		}		
+		
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
+			MeshTransform = N2
+			NodePrefix = N2_
+			SetCount = 2
+			Symmetry = 1
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
+			MeshTransform = N3
+			NodePrefix = N3_
+			SetCount = 3
+			Symmetry = 2
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
+			MeshTransform = N4
+			NodePrefix = N4_
+			SetCount = 4
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = 4x1
+			MeshTransform = N5
+			NodePrefix = N5_
+			SetCount = 5
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = 6x1
+			MeshTransform = N7
+			NodePrefix = N7_
+			SetCount = 7
+			Symmetry = 5
+		}
+
+		NODE_SET
+		{
+			DisplayText = 8x1
+			MeshTransform = N9
+			NodePrefix = N9_
+			SetCount = 9
+			Symmetry = 7
+		}	
+	}
 	
 	MODULE
 	{
@@ -203637,7 +203829,71 @@ _BurnColor      €?  €?  €?  €?_UnderwaterFogFactor             s1p5_cone.pn
 	inverseStageCarryover = false
 	bulkheadProfiles = size4
 	
-	
+	MODULE
+	{
+		name = ModuleDynamicNodes
+		autostrut = true
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004445	// #autoLOC_8004445 = Single
+			MeshTransform = N1
+			NodePrefix = N1_
+			SetCount = 1
+			Symmetry = 0
+		}		
+		
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
+			MeshTransform = N2
+			NodePrefix = N2_
+			SetCount = 2
+			Symmetry = 1
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
+			MeshTransform = N3
+			NodePrefix = N3_
+			SetCount = 3
+			Symmetry = 2
+		}
+		NODE_SET
+		{
+			DisplayText = 4x1
+			MeshTransform = N5
+			NodePrefix = N5_
+			SetCount = 5
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
+			MeshTransform = N4
+			NodePrefix = N4_
+			SetCount = 4
+			Symmetry = 3
+		}
+
+		NODE_SET
+		{
+			DisplayText = 6x1
+			MeshTransform = N7
+			NodePrefix = N7_
+			SetCount = 7
+			Symmetry = 5
+		}
+
+		NODE_SET
+		{
+			DisplayText = 8x1
+			MeshTransform = N9
+			NodePrefix = N9_
+			SetCount = 9
+			Symmetry = 7
+		}	
+	}
 	
 	MODULE
 	{
@@ -204646,7 +204902,71 @@ PART
 	inverseStageCarryover = false
 	bulkheadProfiles = size1
 	
-	
+	MODULE
+	{
+		name = ModuleDynamicNodes
+		autostrut = true
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004445	// #autoLOC_8004445 = Single
+			MeshTransform = N1
+			NodePrefix = N1_
+			SetCount = 1
+			Symmetry = 0
+		}		
+		
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
+			MeshTransform = N2
+			NodePrefix = N2_
+			SetCount = 2
+			Symmetry = 1
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
+			MeshTransform = N3
+			NodePrefix = N3_
+			SetCount = 3
+			Symmetry = 2
+		}
+
+		NODE_SET
+		{
+			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
+			MeshTransform = N4
+			NodePrefix = N4_
+			SetCount = 4
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = 4x1
+			MeshTransform = N5
+			NodePrefix = N5_
+			SetCount = 5
+			Symmetry = 3
+		}
+		NODE_SET
+		{
+			DisplayText = 6x1
+			MeshTransform = N7
+			NodePrefix = N7_
+			SetCount = 7
+			Symmetry = 5
+		}
+
+		NODE_SET
+		{
+			DisplayText = 8x1
+			MeshTransform = N9
+			NodePrefix = N9_
+			SetCount = 9
+			Symmetry = 7
+		}	
+	}
 	
 	MODULE
 	{
@@ -318800,7 +319120,12 @@ _BurnColor      €?  €?  €?  €?_UnderwaterFogFactor             RoverWheel.p
 	tags = No Tag defined yet
 	
 	
-	
+	MODULE
+	{
+		name = ModuleServiceModule
+		ExteriorColliderName = COLShell
+		partDecoupled = false
+	}
 	
 	MODULE
 	{
@@ -319340,7 +319665,15 @@ PART
 	stageOffset = 1
 	childStageOffset = 1
 	
-	
+	MODULE
+	{
+		name = ModuleServiceModule
+		ExteriorColliderName = ColShell
+		ShellMeshName = Shell
+		UseJettisonZones = true
+		JettisonZoneNames = DoorCol1,DoorCol2
+		partDecoupled = false
+	}
 	
 	MODULE
 	{
@@ -319457,7 +319790,12 @@ PART
 	
 	fuelCrossFeed = True
 	bulkheadProfiles = size1p5
-	
+	MODULE
+	{
+		name = ModuleServiceModule
+		ExteriorColliderName = COLShell
+		partDecoupled = false
+	}
 	
 	MODULE
 	{
@@ -369013,7 +369351,11 @@ jTä3Óã;>sŽä›ócP–QàqÂþÙñ›<88ÔsØÎc^÷2Y	J9S^n^79#KœÙ6´îuÃì{	ê'X­1ú&­—8Ç×
 		}
 		
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -369144,7 +369486,11 @@ PART
 			}
 		}
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -369275,7 +369621,11 @@ PART
 			}
 		}
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -369405,7 +369755,11 @@ PART
 			}
 		}
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -369990,7 +370344,11 @@ PART
 			}
 		}
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -370106,7 +370464,11 @@ PART
 			}
 		}
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false		
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -370223,7 +370585,11 @@ PART
 			}
 		}
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -370596,7 +370962,11 @@ PART
 			}
 		}
 	}
-	
+	MODULE
+	{
+		name = ModuleMirrorPlacement
+		applyMirrorRotationXAxis = false
+	}
 	MODULE
 	{
 		name = ModuleCargoPart
