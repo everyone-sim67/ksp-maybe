@@ -69668,7 +69668,7 @@ PART
     {
         model = SquadExpansion/MakingHistory/Parts/Pods/Assets/RoundPod
         position = 0.0, 0.2, 0.0
-		texture = 		texture = KV1,SquadExpansion/MakingHistory/Parts/Pods/Assets/KV2
+		texture = KV1
     }
     INTERNAL
     {
@@ -70346,7 +70346,7 @@ PART
     {
         model = SquadExpansion/MakingHistory/Parts/Pods/Assets/RoundPod
         position = 0.0, 0.2, 0.0
-		texture = 		texture = KV1,SquadExpansion/MakingHistory/Parts/Pods/Assets/KV3
+		texture = KV1
     }
     INTERNAL
     {
