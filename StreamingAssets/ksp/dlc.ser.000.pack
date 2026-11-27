@@ -9982,7 +9982,7 @@ xÛA/w-®}ÖZ;þJjðŽÿ:M©‚K>s!¤wÒ¡–çºÄÓùõâ¹,ª'*ßâƒÏfºá[{ÕÊ™úò¡:7Ýrp'çé?þ:ïÚ»c8vK
 	MODEL
 	{
 		model = SquadExpansion/Serenity/Parts/Aero/Assets/noseconeTiny
-		texture = copterBlades_diffuse
+		texture = copterBlades_diffuse, SquadExpansion/Serenity/Parts/Propellers/Assets/copterBlades_diffuse
 	}
 	node_stack_bottom = 0, 0, 0, 0, -1.0, 0, 0
 	node_attach = 0, 0, 0, 0, -1.0, 0, 0
@@ -10084,7 +10084,7 @@ PART
 	MODEL
 	{
 		model = SquadExpansion/Serenity/Parts/Aero/Assets/noseconeVS
-		texture = copterBlades_diffuse
+		texture = copterBlades_diffuse, SquadExpansion/Serenity/Parts/Propellers/Assets/copterBlades_diffuse
 	}
 	node_stack_bottom = 0, 0, 0, 0, -1.0, 0, 0
 	node_attach = 0, 0, 0, 0, -1.0, 0, 0
