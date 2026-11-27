@@ -267230,6 +267230,7 @@ yYM–|"'Ú´ Iã(=C¨©Á+2I¡šËášÌC5œQL²¤Æ§Køã»vÅ‘	o7áxŒ‡ÈwßL.*[RşåT«Õ{Ã¦ØŸ
 	MODULE
 	{
 		name = ModuleProceduralFairing
+		shaderName = KSP/Bumped Specular
 		nSides = 30
 		nArcs = 2
 		nCollidersPerXSection = 6
@@ -267808,6 +267809,7 @@ _BurnColor      €?  €?  €?  €?_UnderwaterFogFactor             fairings_dif
 	MODULE
 	{
 		name = ModuleProceduralFairing
+		shaderName = KSP/Bumped Specular
 		nSides = 30
 		nArcs = 3
 		nCollidersPerXSection = 9
@@ -268387,6 +268389,7 @@ _BurnColor      €?  €?  €?  €?_UnderwaterFogFactor             fairings_dif
 	MODULE
 	{
 		name = ModuleProceduralFairing
+		shaderName = KSP/Bumped Specular
 		nSides = 36
 		nArcs = 6
 		nCollidersPerXSection = 12
