@@ -439,7 +439,8 @@ function gameVersOf(m) {
   if (m.ksp_version_max && m.ksp_version_max !== m.ksp_version_min) out.push(m.ksp_version_max);
   return out.length ? out : [GAME_VERSION];
 }
-function isInstalled(m) { return installed[m.identifier] === true; }
+function isAlwaysOn(m) { return !!(m && (m.alwaysOn === true || m.isDLC === true)); }
+function isInstalled(m) { return installed[m.identifier] === true || isAlwaysOn(m); }
 function isCompatible(m) {
   if (m.compatible === false) return false;
   var vers = gameVersOf(m);
@@ -929,6 +930,8 @@ function startUnity() {
   if (unityInstance || unityStarting) return;
   unityStarting = true;
   var ids = mods.filter(isInstalled).map(function (m) { return m.identifier; });
+  // DLC is always on: include it even if the registry has not loaded yet or the user cleared their saved state.
+  ["makinghistory", "serenity"].forEach(function (id) { if (ids.indexOf(id) === -1) ids.push(id); });
   try {
     var p = new URLSearchParams(location.search);
     p.set("mods", ids.length ? ids.join(",") : "none");
