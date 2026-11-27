@@ -13392,19 +13392,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundExpControl	
-		packedVolume = 35
-		powerUnitsProduced = 0
-		powerUnitsRequired = 1	
-		antennaType = DIRECT		
-		antennaPower = 500000
-		antennaCombinable = True
-		antennaCombinableExponent = 1
-		placementAllowXRotation = false
-		placementAllowZRotation = false	
-	}		
+			
 	MODULE
 	{
 		name = ModuleAnimationGroup
@@ -13483,16 +13471,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundExperiment
-		packedVolume = 25
-		powerUnitsProduced = 0
-		powerUnitsRequired = 1	
-		experimentId = deployedGooObservation
-		placementAllowXRotation = false
-		placementAllowZRotation = false
-	}	
+		
 	MODULE
 	{
 		name = ModuleAnimationGroup
@@ -13559,15 +13538,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundSciencePart	
-		packedVolume = 25
-		powerUnitsProduced = 1
-		powerUnitsRequired = 0	
-		placementAllowXRotation = false
-		placementAllowZRotation = false
-	}
+	
 	MODULE
 	{
 		name = ModuleAnimationGroup
@@ -13633,16 +13604,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundExperiment
-		packedVolume = 35
-		powerUnitsProduced = 0
-		powerUnitsRequired = 1	
-		experimentId = deployedIONCollector
-		placementAllowXRotation = false
-		placementAllowZRotation = false
-	}	
+		
 	MODULE
 	{
 		name = ModuleAnimationGroup
@@ -13708,18 +13670,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundCommsPart
-		packedVolume = 25
-		powerUnitsProduced = 0
-		powerUnitsRequired = 1	
-		antennaType = DIRECT		
-		antennaPower = 10000000000
-		antennaCombinable = True
-		placementAllowXRotation = false
-		placementAllowZRotation = false
-	}
+	
 	MODULE
 	{
 		name = ModuleAnimationGroup
@@ -13797,16 +13748,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundExperiment
-		packedVolume = 35
-		powerUnitsProduced = 0
-		powerUnitsRequired = 1	
-		experimentId = deployedWeatherReport
-		placementAllowXRotation = false
-		placementAllowZRotation = false		
-	}
+	
 	MODULE
 	{
 		name = ModuleAnimationGroup
@@ -13873,23 +13815,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundExperiment
-		packedVolume = 25
-		powerUnitsProduced = 0
-		powerUnitsRequired = 1	
-		experimentId = deployedSeismicSensor
-		placementAllowXRotation = false
-		placementAllowZRotation = false
-		distanceCurve
-		{
-			key = 0 0 50 50
-			key = 0.02 1 -0.04528769 -0.04528769
-			key = 0.3 0.5 0.02469246 0.02469246
-			key = 1 0.5 0 0
-		}
-	}	
+		
 	
 	MODULE
 	{
@@ -13959,20 +13885,7 @@ d»ìo˘‡ﬂ¿:V(V›eè:9√%'S£vÀ–£◊≤Í#í¿
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleGroundSciencePart	
-		packedVolume = 25
-		powerUnitsProduced = 1
-		powerUnitsRequired = 0	
-		isSolarPanel = true
-		placementAllowXRotation = false
-		placementAllowZRotation = false
-		TrackSun = true
-		secondaryTransformName = PanelRoot
-		targetRotationAngle = -90, 0, 0
-		packingRotationMultiplier = 5
-	}
+	
 	
 	MODULE
 	{
@@ -92380,13 +92293,7 @@ PART
 			}
 		}
 	}	
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}	
+		
 	MODULE
 	{
 		name = ModuleCargoPart	
@@ -92526,13 +92433,7 @@ PART
 			}
         }
     }
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -92672,13 +92573,7 @@ PART
 			}
         }
     }
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -92817,13 +92712,7 @@ PART
 			}
         }
     }
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -92964,13 +92853,7 @@ PART
 			}
         }
     }
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -93103,13 +92986,7 @@ PART
 			}
 		}
 	}	
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}	
+		
 	MODULE
 	{
 		name = ModuleCargoPart	
@@ -93243,13 +93120,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}	
+		
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -93389,13 +93260,7 @@ PART
 			}
         }
     }
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -93535,13 +93400,7 @@ PART
 			}
         }
     }
-	MODULE
-	{
-		name = ModuleMirrorPlacement		
-		ignoreMirrorIfSurfaceXOffset = false		
-		applyMirrorRotationZAxis = false
-		applyMirrorRotationYAxis = true		
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -98920,46 +98779,7 @@ _BurnColor      Ä?  Ä?  Ä?  Ä?_UnderwaterFogFactor             blade_diffus
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320022 //#autoLOC_8320022 = robot actuator hinge
 
-	MODULE
-	{
-		name = ModuleRoboticServoHinge
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top
-		servoSrfMeshNames = COL2
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = -90, 90
-		softMinMaxAngles = -90, 90
-		targetAngle = 0
-		maxMotorOutput = 200
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		motorizedMassPerKN = 0.0003
-		motorizedCostPerDriveUnit = 0.75
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		mainAxis = X
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -98980,19 +98800,7 @@ _BurnColor      Ä?  Ä?  Ä?  Ä?_UnderwaterFogFactor             blade_diffus
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoHinge
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -99036,48 +98844,7 @@ _BurnColor      Ä?  Ä?  Ä?  Ä?_UnderwaterFogFactor             blade_diffus
 	bulkheadProfiles = size2
 	tags = #autoLOC_8320022 //#autoLOC_8320022 = robot actuator hinge
 
-	MODULE
-	{
-		name = ModuleRoboticServoHinge
-		servoCoMOffset = -0.937497, -0.1, 0
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top
-		servoSrfMeshNames = TopCol
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = 0, 180
-		softMinMaxAngles = 0, 180
-		targetAngle = 90
-		maxMotorOutput = 800
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		modelInitialAngle = 90
-		motorizedMassPerKN = 0.0004
-		motorizedCostPerDriveUnit = 0.5
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		useMultipleDragCubes = true
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 
 	DRAG_CUBE
 	{
@@ -99105,25 +98872,8 @@ _BurnColor      Ä?  Ä?  Ä?  Ä?_UnderwaterFogFactor             blade_diffus
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoHinge
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
-	MODULE
-	{
-		name = ModuleMirrorPlacement
-		ignoreMirrorIfSurfaceXOffset = false	
-		
-	}
+	
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -99166,46 +98916,7 @@ _BurnColor      Ä?  Ä?  Ä?  Ä?_UnderwaterFogFactor             blade_diffus
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320022 //#autoLOC_8320022 = robot actuator hinge
 
-	MODULE
-	{
-		name = ModuleRoboticServoHinge
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top
-		servoSrfMeshNames = COL2
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = -90, 90
-		softMinMaxAngles = -90, 90
-		targetAngle = 0
-		maxMotorOutput = 50
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		motorizedMassPerKN = 0.0002
-		motorizedCostPerDriveUnit = 1
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		mainAxis = X
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -99226,19 +98937,7 @@ _BurnColor      Ä?  Ä?  Ä?  Ä?_UnderwaterFogFactor             blade_diffus
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoHinge
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -99282,48 +98981,7 @@ PART
 	bulkheadProfiles = size2
 	tags = #autoLOC_8320022 //#autoLOC_8320022 = robot actuator hinge
 
-	MODULE
-	{
-		name = ModuleRoboticServoHinge
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top
-		servoSrfMeshNames = TopCol
-		servoCoMOffset = -0.569934, -0.05, 0
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = 0, 180
-		softMinMaxAngles = 0, 180
-		targetAngle = 90
-		maxMotorOutput = 1200
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		modelInitialAngle = 90
-		motorizedMassPerKN = 0.0004
-		motorizedCostPerDriveUnit = 0.5
-		connectedMassScale = 1
-		efficiency = 0.75		
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		useMultipleDragCubes = true
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = FXModuleLookAtConstraint
@@ -99360,24 +99018,8 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoHinge
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
-	MODULE
-	{
-		name = ModuleMirrorPlacement
-		ignoreMirrorIfSurfaceXOffset = false				
-	}	
+	
+		
 	MODULE
 	{
 		name = ModuleCargoPart	
@@ -99421,48 +99063,7 @@ PART
 	bulkheadProfiles = size1
 	tags = #autoLOC_8320022 //#autoLOC_8320022 = robot actuator hinge
 
-	MODULE
-	{
-		name = ModuleRoboticServoHinge
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top
-		servoSrfMeshNames = TopCol
-		servoCoMOffset = -0.468749, -0.05, 0
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = 0, 180
-		softMinMaxAngles = 0, 180
-		targetAngle = 90
-		maxMotorOutput = 200
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		modelInitialAngle = 90
-		motorizedMassPerKN = 0.0003
-		motorizedCostPerDriveUnit = 0.75
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		useMultipleDragCubes = true
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	
 	DRAG_CUBE
 	{
@@ -99490,25 +99091,8 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoHinge
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
-	MODULE
-	{
-		name = ModuleMirrorPlacement
-		ignoreMirrorIfSurfaceXOffset = false	
-		
-	}
+	
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -99557,45 +99141,7 @@ PART
 		cube = 50, 1.28735, 0.7789, 0.3815, 1.28735, 0.7789, 0.3815, 0.3813, 0.998, 1.508, 0.3813, 0.999, 0.096475, 1.317, 0.7747, 0.38615, 1.31695, 0.7748, 0.38615, -0.0002191, 0.61805, 2.98e-08, 0.6176, 2.929, 0.6171
 		cube = 100, 1.58,0.7805,0.3847, 1.58,0.7805,0.3847, 0.3813,0.998,1.911, 0.3813,0.999,0.09245, 1.638,0.7677,0.3717, 1.638,0.7678,0.3717, -0.0002191,1.018,2.98E-08, 0.6176,3.729,0.6171
 	}
-	MODULE
-	{
-		name = ModuleRoboticServoPiston
-		servoTransformName = TopJoint
-		servoSrfMeshNames = capTransform
-		baseTransformName = BottomJoint
-		servoAttachNodes = top
-		traverseVelocityLimits = 0.05, 5
-		hardMinMaxLimits = 0,1.6
-		softMinMaxExtension = 0,1.6
-		mainAxis = Y
-		servoMass = 0.25
-		maxMotorOutput = 800
-		positionSpringMutliplier = 100
-		positionDampingMutliplier = 20
-		motorizedMassPerKN = 0.0004
-		motorizedCostPerDriveUnit = 0.5
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.05
-		referenceConsumptionVelocity = 5
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -99631,19 +99177,7 @@ PART
 		}
 		
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoPiston
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -99691,46 +99225,7 @@ PART
 		cube = 50, 2.25, 0.7548, 0.3917, 2.25, 0.7548, 0.3917, 0.3911, 0.9961, 2.3405, 0.3911, 0.9971, 0.094475, 2.2505, 0.7679, 0.38985, 2.2505, 0.76785, 0.38985, -0.000222, 1.41805, 5.066e-07, 0.6254, 4.613, 0.625
 		cube = 100, 3.232,0.7349,0.382, 3.232,0.7349,0.382, 0.3911,0.9961,3.536, 0.3911,0.9971,0.08485, 3.232,0.7563,0.3753, 3.232,0.7561,0.3753, -0.000222,2.618,5.066E-07, 0.6254,7.013,0.625
 	}
-	MODULE
-	{
-		name = ModuleRoboticServoPiston
-		servoTransformName = TopJoint
-		servoSrfMeshNames = capTransform
-		baseTransformName = BottomJoint
-		slaveTransformNames = Sleave0, Sleave1
-		servoAttachNodes = top
-		traverseVelocityLimits = 0.1, 10
-		hardMinMaxLimits = 0, 4.8
-		softMinMaxExtension = 0, 4.8
-		mainAxis = Y
-		servoMass = 0.25
-		maxMotorOutput = 800
-		positionSpringMutliplier = 100
-		positionDampingMutliplier = 20
-		motorizedMassPerKN = 0.00045
-		motorizedCostPerDriveUnit = 0.5
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.1
-		referenceConsumptionVelocity = 10
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -99765,19 +99260,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoPiston
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -99957,49 +99440,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -100028,45 +99469,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320037 //#autoLOC_8320037 = robot actuator motor
 
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8
-		servoSrfMeshNames = COL1
-		rotationMatch = 0.009
-		maxMotorOutput = 20
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		rpmLimit = 460
-		motorizedMassPerKN = 0.002
-		motorizedCostPerDriveUnit = 6
-		brakeTorque = 60
-		rotorSpoolTime = 150
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.06
-		referenceConsumptionVelocity = 460
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -100087,19 +99490,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoRotor
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -100147,45 +99538,7 @@ PART
 		cube = 50, 0.21905, 0.78175, 0.1914, 0.21905, 0.78175, 0.1914, 0.04346, 0.9961, 0.80205, 0.04346, 0.9971, 0.09817, 0.2245, 0.7774, 0.19535, 0.2245, 0.77745, 0.19615, -7.395e-05, 0.3116, 4.47e-08, 0.2085, 1.465, 0.2083
 		cube = 100, 0.2712,0.7729,0.1842, 0.2712,0.7729,0.1842, 0.04346,0.9961,1.004, 0.04346,0.9971,0.09716, 0.282,0.7594,0.1905, 0.282,0.7593,0.1921, -7.395E-05,0.5116,4.47E-08, 0.2085,1.865,0.2083
 	}
-	MODULE
-	{
-		name = ModuleRoboticServoPiston
-		servoTransformName = TopJoint
-		servoSrfMeshNames = capTransform
-		baseTransformName = BottomJoint
-		servoAttachNodes = top
-		traverseVelocityLimits = 0.01, 1
-		hardMinMaxLimits = 0,0.8
-		softMinMaxExtension = 0,0.8
-		mainAxis = Y
-		servoMass = 0.25
-		maxMotorOutput = 100
-		positionSpringMutliplier = 100
-		positionDampingMutliplier = 20
-		motorizedMassPerKN = 0.0002
-		motorizedCostPerDriveUnit = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.01
-		referenceConsumptionVelocity = 1
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -100220,19 +99573,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoPiston
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -100412,49 +99753,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -100483,46 +99782,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320037 //#autoLOC_8320037 = robot actuator motor
 
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8
-		servoSrfMeshNames = COL1
-		rotationMatch = 0.009
-		maxMotorOutput = 70
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		motorizedMassPerKN = 0.003
-		motorizedCostPerDriveUnit = 5
-		brakeTorque = 210
-		rpmLimit = 460
-		rotorSpoolTime = 150
-		rotorTorqueCurve = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.06
-		referenceConsumptionVelocity = 460
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -100543,19 +99803,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoRotor
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -100735,49 +99983,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -100806,46 +100012,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320037 //#autoLOC_8320037 = robot actuator motor
 
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8
-		servoSrfMeshNames = COL1
-		rotationMatch = 0.009
-		maxMotorOutput = 20
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		motorizedMassPerKN = 0.002
-		motorizedCostPerDriveUnit = 6
-		brakeTorque = 60
-		rpmLimit = 460
-		rotorSpoolTime = 150
-		rotorTorqueCurve = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.06
-		referenceConsumptionVelocity = 460
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -100866,19 +100033,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoRotor
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -101058,49 +100213,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -101129,45 +100242,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320037 //#autoLOC_8320037 = robot actuator motor
 
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8
-		servoSrfMeshNames = COL1
-		rotationMatch = 0.009
-		maxMotorOutput = 70
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		rpmLimit = 460
-		motorizedMassPerKN = 0.003
-		motorizedCostPerDriveUnit = 5
-		brakeTorque = 210
-		rotorSpoolTime = 150
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.06
-		referenceConsumptionVelocity = 460
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -101188,19 +100263,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoRotor
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -101380,49 +100443,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -101451,45 +100472,7 @@ PART
 	bulkheadProfiles = size1
 	tags = #autoLOC_8320037 //#autoLOC_8320037 = robot actuator motor
 
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8
-		servoSrfMeshNames = COL1
-		rotationMatch = 0.009
-		maxMotorOutput = 400
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		rpmLimit = 460		
-		motorizedMassPerKN = 0.004
-		motorizedCostPerDriveUnit = 4
-		brakeTorque = 1200
-		rotorSpoolTime = 150
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.06
-		referenceConsumptionVelocity = 460
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -101510,19 +100493,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoRotor
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}	
+		
 	MODULE
 	{
 		name = ModuleCargoPart	
@@ -101571,46 +100542,7 @@ PART
 		cube = 50, 0.3761, 0.756, 0.18795, 0.3761, 0.756, 0.18795, 0.04395, 0.9961, 1.2184, 0.04395, 0.9971, 0.099515, 0.3765, 0.7728, 0.2971, 0.37645, 0.77275, 0.2971, -7.4e-05, 0.70905, 0.0, 0.2096, 2.306, 0.2095
 		cube = 100, 0.5382,0.741,0.1767, 0.5382,0.741,0.1767, 0.04395,0.9961,1.817, 0.04395,0.9971,0.1017, 0.5382,0.7706,0.1847, 0.5382,0.7705,0.1847, -7.4E-05,1.309,0, 0.2096,3.506,0.2095
 	}
-	MODULE
-	{
-		name = ModuleRoboticServoPiston
-		servoTransformName = TopJoint
-		servoSrfMeshNames = capTransform
-		baseTransformName = BottomJoint
-		slaveTransformNames = Sleave0, Sleave1
-		servoAttachNodes = top
-		traverseVelocityLimits = 0.02, 2
-		hardMinMaxLimits = 0, 2.4
-		softMinMaxExtension = 0, 2.4
-		mainAxis = Y
-		servoMass = 0.25
-		maxMotorOutput = 100
-		positionSpringMutliplier = 100
-		positionDampingMutliplier = 20
-		motorizedMassPerKN = 0.00045
-		motorizedCostPerDriveUnit = 0.5
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 2
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -101645,19 +100577,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoPiston
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -101844,49 +100764,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -101915,40 +100793,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8002406	//#autoLOC_8002406 = robot actuator motor LF
 	
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8,N9_1
-		servoSrfMeshNames = COL1
-		rotationMatch = 0.009
-		maxMotorOutput = 150
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		motorizedMassPerKN = 0.004
-		motorizedCostPerDriveUnit = 2
-		brakeTorque = 450
-		rpmLimit = 460
-		rotorSpoolTime = 150
-		rotorTorqueCurve = 1
-		efficiency = 0.4
-		baseResourceConsumptionRate = 0.1
-		referenceConsumptionVelocity = 460
-		RESOURCE
-		{
-			name = LiquidFuel
-			rate = 0.01
-			resourceFlowMode = STAGE_STACK_FLOW_BALANCE	
-==
-		}	
-		RESOURCE
-		{
-			name = IntakeAir			
-			rate = 0.5
-		}		
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModuleResourceIntake
@@ -102170,49 +101015,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -102241,39 +101044,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8002407 //#autoLOC_8002407 = robot actuator motor LF
 
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8
-		servoSrfMeshNames = COL3
-		rotationMatch = 0.009
-		maxMotorOutput = 550
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		motorizedMassPerKN = 0.004
-		motorizedCostPerDriveUnit = 2
-		brakeTorque = 1650
-		rpmLimit = 460
-		rotorSpoolTime = 150
-		rotorTorqueCurve = 1
-		efficiency = 0.4
-		baseResourceConsumptionRate = 0.1	
-		referenceConsumptionVelocity = 460
-		RESOURCE
-		{
-			name = LiquidFuel
-			rate = 0.012
-			resourceFlowMode = STAGE_STACK_FLOW_BALANCE
-		}	
-		RESOURCE
-		{
-			name = IntakeAir			
-			rate = 0.6
-		}			
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModuleResourceIntake
@@ -102378,46 +101149,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320028 //#autoLOC_8320028 = robot actuator rotate servo
 
-	MODULE
-	{
-		name = ModuleRoboticRotationServo
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top,N1,N2,N3,N4
-		servoSrfMeshNames = Rotor,COL1
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = -177, 177
-		softMinMaxAngles = -177, 177
-		targetAngle = 0
-		mainAxis = Y
-		maxMotorOutput = 50
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		motorizedMassPerKN = 0.0002
-		motorizedCostPerDriveUnit = 1
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -102438,19 +101170,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticRotationServo
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -102631,49 +101351,7 @@ PART
 		method=FIXED_JOINT		
 	}
 
-	MODULE
-	{
-		name = ModuleDynamicNodes
-		autostrut = true
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004446	// #autoLOC_8004446 = Double
-			NodePrefix = N2_
-			SetCount = 2
-			Symmetry = 1
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004447	// #autoLOC_8004447 = Triple
-			NodePrefix = N3_
-			SetCount = 3
-			Symmetry = 2
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004448	// #autoLOC_8004448 = Quad
-			NodePrefix = N4_
-			SetCount = 4
-			Symmetry = 3
-		}
-
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004449	// #autoLOC_8004449 = Hex
-			NodePrefix = N6_
-			SetCount = 6
-			Symmetry = 5
-		}
-		NODE_SET
-		{
-			DisplayText = #autoLOC_8004450	// #autoLOC_8004450 = Octo
-			NodePrefix = N8_
-			SetCount = 8
-			Symmetry = 7
-		}
-	}
+	
 
 
 	rescaleFactor = 1
@@ -102702,47 +101380,7 @@ PART
 	bulkheadProfiles = size1
 	tags = #autoLOC_8320037 //#autoLOC_8320037 = robot actuator motor
 
-	MODULE
-	{
-		name = ModuleRoboticServoRotor
-		servoTransformName = TopJoint
-		servoAttachNodes = top,N2_1,N2_2,N3_1,N3_2,N3_3,N4_1,N4_2,N4_3,N4_4,N6_1,N6_2,N6_3,N6_4,N6_5,N6_6,N8_1,N8_2,N8_3,N8_4,N8_5,N8_6,N8_7,N8_8
-		servoSrfMeshNames = COL1
-		rotationMatch = 0.009
-		maxMotorOutput = 400
-		mainAxis = Y
-        traverseVelocityLimits = 0, 460
-		motorizedMassPerKN = 0.004
-		motorizedCostPerDriveUnit = 4
-		brakeTorque = 1200
-		rpmLimit = 460
-		rotorSpoolTime = 150
-		rotorTorqueCurve = 1
-		maxTorque = 500
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.06
-		referenceConsumptionVelocity = 460
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		angularPositionSpring = 0.0000000001
-		angularPositionDamper = 1000
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -102763,19 +101401,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticServoRotor
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}	
+		
 	MODULE
 	{
 		name = ModuleCargoPart	
@@ -102852,46 +101478,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320028 //#autoLOC_8320028 = robot actuator rotate servo
 
-	MODULE
-	{
-		name = ModuleRoboticRotationServo
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top,N1,N2,N3,N4
-		servoSrfMeshNames = Rotor,COL1
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = -177, 177
-		softMinMaxAngles = -177, 177
-		targetAngle = 0
-		mainAxis = Y
-		maxMotorOutput = 200
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		motorizedMassPerKN = 0.0003
-		motorizedCostPerDriveUnit = 0.75
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -102912,19 +101499,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticRotationServo
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -103001,46 +101576,7 @@ PART
 	bulkheadProfiles = size0
 	tags = #autoLOC_8320028 //#autoLOC_8320028 = robot actuator rotate servo
 
-	MODULE
-	{
-		name = ModuleRoboticRotationServo
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top,N1,N2,N3,N4
-		servoSrfMeshNames = Rotor,COL1
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = -177, 177
-		softMinMaxAngles = -177, 177
-		targetAngle = 0
-		mainAxis = Y
-		maxMotorOutput = 150
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		motorizedMassPerKN = 0.0002
-		motorizedCostPerDriveUnit = 1
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -103061,19 +101597,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticRotationServo
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -103149,46 +101673,7 @@ PART
 	bulkheadProfiles = size1
 	tags = #autoLOC_8320028 //#autoLOC_8320028 = robot actuator rotate servo
 
-	MODULE
-	{
-		name = ModuleRoboticRotationServo
-		servoTransformName = TopJoint
-		baseTransformName = BottomJoint
-		servoAttachNodes = top,N1,N2,N3,N4
-		servoSrfMeshNames = Rotor,COL1
-		traverseVelocityLimits = 1, 180
-		hardMinMaxLimits = -177, 177
-		softMinMaxAngles = -177, 177
-		targetAngle = 0
-		mainAxis = Y
-		maxMotorOutput = 1000
-		driveSpringMutliplier = 100
-		driveDampingMutliplier = 20
-		motorizedMassPerKN = 0.0004
-		motorizedCostPerDriveUnit = 0.5
-		connectedMassScale = 1
-		efficiency = 0.75
-		baseResourceConsumptionRate = 0.02
-		referenceConsumptionVelocity = 180
-		// if RESOURCE is used, negative power is simply dumped
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 1
-		}
-		// INPUT_RESOURCE is by default equivalent to RESOURCE
-		//INPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-		//OUTPUT_RESOURCE is required to reclaim energy from negative power
-		//OUTPUT_RESOURCE
-		//{
-		//	name = ElectricCharge
-		//	rate = 1
-		//}
-	}
+	
 	MODULE
 	{
 		name = ModulePartVariants
@@ -103209,19 +101694,7 @@ PART
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModuleResourceAutoShiftState
-		affectedResourceName = ElectricCharge
-		affectedModuleName = ModuleRoboticRotationServo
-		resourceShutOffHandler = true
-		resourceStartUpHandler = true
-		resourceShutOffStartUpUsePercent = true
-		resourceShutOffAmount = 0
-		resourceShutOffPercent = 0
-		resourceStartUpAmount = 0
-		resourceStartUpPercent = 5
-	}	
+		
 	MODULE
 	{
 		name = ModuleCargoPart	
@@ -155075,15 +153548,7 @@ rk˜~.`Uçr6¶t,¯2(ü)@‹∆±™M˚†çcSU’i.Ät<|2N¯ây∫†Ω.u¨ª«Ê°:-(“OvYä
 	bulkheadProfiles = srf
 	tags = #autoLOC_8003281 // #autoLOC_8003281 = (contr (robo (seq (anim
 	mapActionsToSymmetryParts = false
-	MODULE
-	{
-		name = ModuleRoboticController
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 0.1
-		}
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -155177,47 +153642,7 @@ rk˜~.`Uçr6¶t,¯2(ü)@‹∆±™M˚†çcSU’i.Ät<|2N¯ây∫†Ω.u¨ª«Ê°:-(“OvYä
             }
         }
     }
-	MODULE
-	{
-		name = ModuleRobotArmScanner		
-		pivotName = BaseRotator
-		extendActionName = #autoLOC_8004355 //#autoLOC_8004355 = Scan Surface Feature
-		trackingSpeed = 30
-		animationName = ROCScan1
-		TrackingAlignmentOffset = 0
-		unpackAnimationName = ROCDeploy		
-        editorReachAnimationName = ROCPreview
-		firstJointAlignOffset = -90			
-		gimbalAlignOffset = 90	
-		instAlignOffset = 180		
-		distanceFromSurface = 0.6
-		cancelScanDistance = 0.1
-		firstJointRotStartAngleModifier = 0		
-		impactResistance = 2
-		impactResistanceRetracted = 6
-		retractable = False
-		rangeTriggerRadius = 2
-		rangeTriggerParentTransformName = ROCArm_01
-		firstJointRotationLimit = 90
-		safeRetractPeriods = 0 1
-		safeRetractPeriods = 3.5 4.5
-		safeRetractPeriods = 7 15
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 13.6
-		}
-		SCANNEREFFECTS
-		{
-			EFFECT
-			{
-				className = RobotArmFXSpectrometer
-				effectStartTime = 1.5
-				effectStopTime = 3
-				lightTransformName = LightTransform
-			}
-		}
-	}
+	
 	MODULE
 	{
 		name = ModuleScienceExperiment
@@ -155329,57 +153754,7 @@ rk˜~.`Uçr6¶t,¯2(ü)@‹∆±™M˚†çcSU’i.Ät<|2N¯ây∫†Ω.u¨ª«Ê°:-(“OvYä
            }
         }
     }
-	MODULE
-	{
-		name = ModuleRobotArmScanner		
-		pivotName = BaseRotator
-		extendActionName = #autoLOC_8004355 //#autoLOC_8004355 = Scan Surface Feature
-		trackingSpeed = 30
-		animationName = ROCScan2
-		TrackingAlignmentOffset = 0
-		unpackAnimationName = ROCDeploy		
-        editorReachAnimationName = ROCPreview
-		firstJointAlignOffset = -90			
-		gimbalAlignOffset = 90		
-		instAlignOffset = 180		
-		distanceFromSurface = 0.6
-		cancelScanDistance = 0.1
-		firstJointRotStartAngleModifier = 0		
-		impactResistance = 2
-		impactResistanceRetracted = 6
-		retractable = False
-		rangeTriggerRadius = 3
-		rangeTriggerParentTransformName = ROCArm_02
-		firstJointRotationLimit = 90
-		safeRetractPeriods = 0 1
-		safeRetractPeriods = 3.5 4
-		safeRetractPeriods = 8 10
-		safeRetractPeriods = 12 15
-		RESOURCE
-		{
-			name = ElectricCharge
-			rate = 19.7
-		}
-		SCANNEREFFECTS
-		{
-			EFFECT
-			{
-				className = RobotArmFXSpectrometer
-				effectStartTime = 1.5
-				effectStopTime = 3
-				lightTransformName = LightTransform
-			}
-			EFFECT
-			{
-				className = RobotArmFXLaser
-				effectStartTime = 5
-				effectStopTime = 6.5
-				laserEffectTransformName = LaserTransform
-				configLaserEffectColor = #FF0000
-				laserEffectWidth = 0.01
-			}
-		}
-	}
+	
 	MODULE
 	{
 		name = ModuleScienceExperiment
@@ -203292,32 +201667,7 @@ jÔê'¬É∑OéPê∂†Ôn ¿C
 			}
 		}
 	}	
-	MODULE
-	{
-		name = ModulePhysicMaterial
-		activePhysicMaterialName = MediumGrip
-		PhysicMaterialName = MediumGrip
-		PhysicMaterialName = HighGrip
-		PhysicMaterialName = ExtremeGrip
-		PHYSICMATERIALCOLORS
-		{
-			MATERIALCOLOR
-			{
-				name = MediumGrip
-				color = 1,1,1
-			}
-			MATERIALCOLOR
-			{
-				name = HighGrip
-				color = 0.63,0.63,0.63
-			}
-			MATERIALCOLOR
-			{
-				name = ExtremeGrip
-				color = 0.38,0.38,0.38
-			}
-		}
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -203389,32 +201739,7 @@ jÔê'¬É∑OéPê∂†Ôn ¿C
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModulePhysicMaterial
-		activePhysicMaterialName = MediumGrip
-		PhysicMaterialName = MediumGrip
-		PhysicMaterialName = HighGrip
-		PhysicMaterialName = ExtremeGrip
-		PHYSICMATERIALCOLORS
-		{
-			MATERIALCOLOR
-			{
-				name = MediumGrip
-				color = 1,1,1
-			}
-			MATERIALCOLOR
-			{
-				name = HighGrip
-				color = 0.63,0.63,0.63
-			}
-			MATERIALCOLOR
-			{
-				name = ExtremeGrip
-				color = 0.38,0.38,0.38
-			}
-		}
-	}	
+		
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -203486,32 +201811,7 @@ jÔê'¬É∑OéPê∂†Ôn ¿C
 			}
 		}
 	}
-	MODULE
-	{
-		name = ModulePhysicMaterial
-		activePhysicMaterialName = MediumGrip
-		PhysicMaterialName = MediumGrip
-		PhysicMaterialName = HighGrip
-		PhysicMaterialName = ExtremeGrip
-		PHYSICMATERIALCOLORS
-		{
-			MATERIALCOLOR
-			{
-				name = MediumGrip
-				color = 1,1,1
-			}
-			MATERIALCOLOR
-			{
-				name = HighGrip
-				color = 0.63,0.63,0.63
-			}
-			MATERIALCOLOR
-			{
-				name = ExtremeGrip
-				color = 0.38,0.38,0.38
-			}
-		}
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -203551,32 +201851,7 @@ jÔê'¬É∑OéPê∂†Ôn ¿C
 	bulkheadProfiles = srf
 	tags =  #autoLOC_6011102 //cover plat support grip rubber friction
 	mapActionsToSymmetryParts = false
-	MODULE
-	{
-		name = ModulePhysicMaterial
-		activePhysicMaterialName = MediumGrip
-		PhysicMaterialName = MediumGrip
-		PhysicMaterialName = HighGrip
-		PhysicMaterialName = ExtremeGrip
-		PHYSICMATERIALCOLORS
-		{
-			MATERIALCOLOR
-			{
-				name = MediumGrip
-				color = 1,1,1
-			}
-			MATERIALCOLOR
-			{
-				name = HighGrip
-				color = 0.63,0.63,0.63
-			}
-			MATERIALCOLOR
-			{
-				name = ExtremeGrip
-				color = 0.38,0.38,0.38
-			}
-		}
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
@@ -203617,32 +201892,7 @@ jÔê'¬É∑OéPê∂†Ôn ¿C
 	bulkheadProfiles = srf
 	tags =  #autoLOC_6011103 //cover plat support grip rubber friction
 	mapActionsToSymmetryParts = false
-	MODULE
-	{
-		name = ModulePhysicMaterial
-		activePhysicMaterialName = MediumGrip
-		PhysicMaterialName = MediumGrip
-		PhysicMaterialName = HighGrip
-		PhysicMaterialName = ExtremeGrip
-		PHYSICMATERIALCOLORS
-		{
-			MATERIALCOLOR
-			{
-				name = MediumGrip
-				color = 1,1,1
-			}
-			MATERIALCOLOR
-			{
-				name = HighGrip
-				color = 0.63,0.63,0.63
-			}
-			MATERIALCOLOR
-			{
-				name = ExtremeGrip
-				color = 0.38,0.38,0.38
-			}
-		}
-	}
+	
 	MODULE
 	{
 		name = ModuleCargoPart
